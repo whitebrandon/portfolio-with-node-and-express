@@ -1,0 +1,23 @@
+{
+  "name": "static_node.js_and_express_site",
+  "version": "0.1.0",
+  "description": "A portfolio site to showcase JavaScript projects",
+  "dependencies": {
+    "express": "latest",
+    "pug": "latest"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitebrandon/techdegree-project-6.git"
+  },
+  "author": "Brandon Sean White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whitebrandon/techdegree-project-6/issues"
+  },
+  "homepage": "https://github.com/whitebrandon/techdegree-project-6#readme"
+}
