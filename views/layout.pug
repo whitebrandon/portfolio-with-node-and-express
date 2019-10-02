@@ -8,30 +8,36 @@ html(class="no-js" lang="en" dir="ltr")
         link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
         link(rel='stylesheet', href='/static/css/foundation.css')
         link(rel='stylesheet', href='/static/css/style.css')
+        link(rel='stylesheet', href='/static/css/more-styles.css')
     body
         #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
             .grid-y.grid-padding-x(style='height: 100%;')
                 block sidebar
                     br
                     .cell.shrink
-                        img.thumbnail(src='/static/imgs/profile_pic_03.gif')
+                        img.thumbnail(class="profile", src='/static/imgs/profile_pic_03.gif')
                     .cell.auto
 
                         //- Add your name here.
-                        h5 Brandon White
+                        h5.name Brandon Sean White
 
                         //- Add text here to describe who you are, what you do, and why you are so awesome.
                         p.text-light
-                          | Description
+                          | 
                           ul
-                              li Full Stack JavaScript Developer
+                              li Creative Conundrum Cracker
+                          //-
                               li Filmmaker
                               li Writer/Author
                               li Designer/Illustrator
                               li Problem Solver
 
                         //- Add about page route to the href below. 
-                        a(href='/about') Learn More →
+                        a.learn-more(href='/about')
+                            | My Story
+                            br
+                            | My Words
+                            //- Learn More →
 
         .off-canvas-content(data-off-canvas-content='')
             .title-bar.hide-for-large
@@ -48,4 +54,4 @@ html(class="no-js" lang="en" dir="ltr")
     script(src='/static/js/vendor/what-input.js')
     script(src='/static/js/vendor/foundation.js')
     script(src='/static/js/scripts.js')
-    script(src='/static/js/app.js')
+    script(src='/static/js/main.js')
