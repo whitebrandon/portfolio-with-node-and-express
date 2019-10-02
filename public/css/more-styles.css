@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+/* Variables */
+
+:root {
+    --brand-blue-med-hard: #014760;
+    --brand-blue-med: #076172;
+    --brand-plum-med: #450539;
+    --brand-plum-dark: #010f19;
+    --brand-red-hard: #a4161a;
+}
+
+body, h5 {
+    font-family: 'Neucha', 'sans-serif';
+    font-size: 1.25em;
+}
+
+body {
+    background: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png"),
+                linear-gradient(to top, #010f1938, var(--brand-blue-med-hard) 75%),
+                #0761727c;
+}
+
+h1, h2, h3, h4, h6 {
+    font-family: 'Asap', 'sans-serif';
+}
+
+.text-light {
+    color: var(--brand-plum-dark);
+    font-family: 'Asap', 'sans-serif';
+    font-size: 1.675em;
+}
+
+a img.thumbnail {
+    border-radius: 25px;
+    -webkit-filter: grayscale(85%) drop-shadow(12px 12px 8px var(--brand-blue-med));
+    border-color: var(--brand-blue-med-hard);
+}
+
+a img:hover {
+    -webkit-filter: grayscale(0) drop-shadow(4px 4px 8px var(--brand-blue-med)) drop-shadow(-4px -4px 8px var(--brand-blue-med));
+    -webkit-transform: scale(1.1);
+}
+
+.image {
+    border-radius: 50px 0 50px 0;
+    -webkit-filter: grayscale(50%);
+    border-color: var(--brand-blue-med-hard);
+    -webkit-transform: scale(.95);
+}
+
+.image:hover {
+    -webkit-filter: grayscale(0) drop-shadow(2px 2px 4px var(--brand-blue-med)) drop-shadow(-2px -2px 4px var(--brand-blue-med));
+    -webkit-transform: scale(1);
+}
+
+h1 {
+    color: var(--brand-plum-dark);
+    text-shadow: 4px 4px 4px var(--brand-plum-dark),
+                 -4px 4px 4px var(--brand-plum-dark),
+                 4px -4px 4px var(--brand-plum-dark),
+                 -4px -4px 4px var(--brand-plum-dark),
+                 8px 8px 72px var(--brand-plum-med);
+    text-transform: uppercase;
+    font-size: 3.2em; 
+    color: var(--brand-blue-med-hard);
+}
+
+h5 {
+    margin-top: 16px;
+    text-align: center;
+    color: var(--brand-plum-dark);
+}
+
+h5.name {
+    background: transparent;
+    font-weight: 600;
+}
+
+.portfolio-me {
+    background-image: linear-gradient(to top, #076172b3, #a4161ab3), 
+                      url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    box-shadow: 8px 0 32px 4px var(--brand-plum-dark) !important;
+}
+
+.portfolio-me p {
+    color: var(--brand-plum-dark);
+    font-size: .95em;
+    text-align: center;
+}
+
+.portfolio-me li {
+    list-style: none;
+    color: var(--brand-plum-dark);
+    text-shadow: 1px 1px 1px var(--brand-plum-med);
+}
+
+.portfolio-me a {
+    color: var(--brand-plum-dark);
+    font-family: 'Asap', 'sans-serif';
+    font-size: 1em;
+}
+
+.portfolio-me a:hover {
+    color: var(--brand-plum-med);
+}
+
+.profile {
+    border-radius: 8px;
+}
+
+.description {
+    font-family: 'Neucha', 'sans-serif';
+}
+
+.skills li, .contact li, .technologies li {
+    color: var(--brand-plum-dark);
+    font-size: .95em;
+    font-weight: 600;
+    list-style: none;
+}
+
+.skills li::before, .technologies li::before {
+    content: "\02658";
+    position: relative;
+    right: .5em;
+    font-size: 24px;
+}
+
+.phone::before {
+    content: "\0260e";
+    position: relative;
+    right: .5em;
+    font-size: 24px;
+}
+
+.email::before {
+    content: "\02709";
+    position: relative;
+    right: .5em;
+    font-size: 24px;
+}
+
+.back {
+    color: var(--brand-plum-dark);
+}
+
+.back::before {
+    content: "\021e6";
+    font-size: 60px;
+}
+
+.back:hover {
+    color: var(--brand-blue-med-hard);
+    text-shadow: .5px .5px .5px var(--brand-plum-dark),
+                 -.5px .5px .5px var(--brand-plum-dark),
+                 -.5px -.5px .5px var(--brand-plum-dark),
+                 .5px -.5px .5px var(--brand-plum-dark);
+}
+
+.social-link, .project-link {
+    background: linear-gradient(to bottom, var(--brand-blue-med) 50%, var(--brand-red-hard) 200%);
+    border-radius: 12px;
+    color: var(--brand-plum-dark);
+    font-family: 'Asap', 'sans-serif';
+    font-size: .85em;
+    border-width: 0;
+}
+
+.social-link:hover, .project-link:hover {
+    background: var(--brand-plum-dark);
+    color: var(--brand-blue-med);
+    text-shadow: 1px 1px 1px var(--brand-plum-med);
+}
+
+.portfolio-bio p {
+    color: var(--brand-plum-dark);
+    font-family: 'Neucha', 'sans-serif';
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.learn-more {
+    display: block;
+    text-align: center;
+}
+
+.learn-more::after {
+    content: "\01f517";
+    position: absolute;
+    left: 124px;
+    top: 368px;
+    z-index: -1;
+    opacity: 0.2;
+    font-size: 36px;
+}
