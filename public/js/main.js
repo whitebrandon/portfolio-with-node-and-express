@@ -1,4 +1,4 @@
-const talents = ["a Filmmaker", "a Screenwriter", "a Son", "a Designer", "a Novelist", "a Baker", "an Illustrator", "a Problem Solver", "a Big-Brother", "a Bibliophile", "a Jokester", "a Full Stack JavaScript Developer"];
+const talents = ["a filmmaker", "a screenwriter", "a critical thinker", "my mother's son", "a designer", "a novelist", "a preparer of baked goods", "an illustrator", "a problem solver", "a someone's big brother", "a lover of books", "a jokester", "a scholar", "a Full Stack JavaScript Developer"];
 
 function changeTalent () {
     const $talent = $('#talent');
