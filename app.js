@@ -1,6 +1,4 @@
 const express = require('express');
-const {projects} = require('./data.json');
-
 const app = express();
 
 const indexRoute = require('./routes');
@@ -16,6 +14,19 @@ app.use("/", indexRoute);
 app.use("/about", aboutRoute);
 
 app.use("/projects", projectRoutes);
+
+app.use((req, res, next) => {
+    next(new Error("The requested page was not found"));
+});
+
+app.use(function (err, req, res, next) {
+    console.error(err)
+    res.render('error', {
+        message: "Page Not Found",
+        status: 404,
+        stack: err.stack
+    });
+});
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000...');
