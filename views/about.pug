@@ -1,47 +1,74 @@
 extends layout.pug
 
 block content 
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
-  article.grid-container.portfolio-intro.portfolio-project
-    .grid-x
-      .cell.small-6.medium-9.large-9
+    nav.grid-container.portfolio-breadcrumb
+        a.back(href='/')
+        //- ← Back
+    article.grid-container.portfolio-intro.portfolio-project
+        .grid-x
+            .cell.small-6.medium-9.large-9
 
-        //- Add your name.
-        h1 Name
+                //- Add your name.
+                h1= name
 
-        //- Feel free personalize the title below
-        p.lead.text-light
-          | Full Stack JavaScript Developer.
+                //- Feel free personalize the title below
+                p.lead.text-light
+                    | More than   
+                    span#talent a Full Stack JavaScript Developer
+                    | .
 
-        //- Replace the boilerplate below with your Elevator pitch below.
-        .portfolio-bio
-          p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-      .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Skills
+                //- Replace the boilerplate below with your Elevator pitch below.
+                .portfolio-bio.animated.fadeIn
+                    p
+                        | To know me is to understand the importance of stories, which are in many ways, the mainstay of humanity. They inspire. Inform. Offer escape. Promote genuine thought. And fill the world with light. 
+                        br
+                        br
+                        | Born a wonderer, I've grown to become an engineer of stories. And so I strive to implement storytelling values into every thing I do. I've designed my code to be easily read, clever, full of character, and scalable (because the greatest stories never really end). 
+                        br
+                        br
+                        | Browse my site to learn more about me and to view samples of my work. And when you feel a burn that whispers at you to add a compelling storyteller to your team, I'll be here.
+                        br
+                        br
+                        | Don't settle for less. Be more!
+            .cell.portfolio-meta.small-6.medium-2.large-3
+                h6 Skills
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
-        ul
-          li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
-        h6 Contact Info
+                //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+                ul.skills
+                    li HTML5
+                    li CSS3
+                    li Sass/SCSS
+                    //-
+                        li Python
+                        li Django
+                    li JavaScript
+                    //-
+                        li TypeScript
+                    li JQuery
+                    li Node.js
+                    li Express
+                    //-
+                        li Angular
+                        li React
+                        li Vue
+                    li JSON
+                    li XML
+                    li Git
+                    //-
+                        li SQL
+                        li MongoDB
+                h6 Contact Info
 
-        //- Add your own contact info
-        ul
-          li 555-555-1234
-          li email@email.com
+                //- Add your own contact info
+                ul.contact
+                    li.phone 336-749-6260
+                    li.email white.brandonsean@gmail.com
 
-        //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
-  
+                //- Add URLs to the hrefs below to link to your social media accounts.
+                a.button.expanded.social-link(href='https://www.linkedin.com/in/brandonseanwhite/', target="_blank") LinkedIn
+                a.button.expanded.social-link(href='https://github.com/whitebrandon', target="_blank") GitHub
+                a.button.expanded.social-link(href='https://twitter.com/chldprdgy720', target="_blank") Twitter
+    nav.grid-container.portfolio-breadcrumb
+        a.back(href='/')
+        //- ← Back
+    
