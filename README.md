@@ -10,20 +10,30 @@ A portfolio site to show off the projects I've built.
 
 Clone repo to local machine using git:
 
-`$ git init`\
-`$ git clone https://github.com/whitebrandon/techdegree-project-6`
+```
+$ git init
+```\
+```
+$ git clone https://github.com/whitebrandon/techdegree-project-6
+```
 
 Install dependencies via npm:
 
-`$ npm install`
+```
+$ npm install
+```
 
 Run project via node:
 
-`$ node app.js`
+```
+$ node app.js
+```
 
 or npm:
 
-`$ npm start`
+```
+$ npm start
+```
 
 ## Live Version
 
