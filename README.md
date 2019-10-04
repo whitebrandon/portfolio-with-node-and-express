@@ -70,6 +70,6 @@ I've...
 * added animations to images so that when clicked, they lead into the linked page by sliding off the current page
 * used pseudo elements to add unicode glyphs to certain list items
 
-## Behaviour Changes
+## Behavior Changes
 
 I've created a main.js client-side file and added a function that causes the secondary heading of the about page to switch through a serious of words/phrases (.ie "More than a [designer, illustator, developer]).
