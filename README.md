@@ -40,7 +40,6 @@ $ npm start
 A live version of this portfolio has been deployed using Heroku, and can be found by clicking on the following link:
 
 [https://chldprdgy720-th-project-6.herokuapp.com/](https://chldprdgy720-th-project-6.herokuapp.com/)
-<a href="https://chldprdgy720-th-project-6.herokuapp.com/" target="_blank">https://chldprdgy720-th-project-6.herokuapp.com/</a>
 
 ## Built With
 
