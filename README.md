@@ -44,7 +44,7 @@ A live version of this portfolio has been deployed using Heroku, and can be foun
 ## Built With
 
 * Node.js
-* [Express](https://expressjs.com/en/4x/api.html) - The web framework used
+* [Express](https://expressjs.com/en/4x/api.html) - Web Framework
 * [Pug](https://pugjs.org/api/getting-started.html) - Template Engine
 * [Foundation](https://foundation.zurb.com/sites/docs/) - Framework for responsive CSS
 * [Animate.css](https://github.com/daneden/animate.css) - Used to add animations via CSS
