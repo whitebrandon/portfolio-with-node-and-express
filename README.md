@@ -34,6 +34,7 @@ or npm:
 ```
 $ npm start
 ```
+Navigate to `localhost:3000` in web browser
 
 ## Live Version
 
