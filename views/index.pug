@@ -4,23 +4,16 @@ block content
     article.grid-container.portfolio-intro
         div
 
-            //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
             h1 More Than A Coder
 
-            //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
             p.lead.text-light
                 | A Full Stack JavaScript Portfolio
     article.grid-container.portfolio-index.animated.fadeInUp
       
         .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-            //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
             each project in projects
                 .cell
                     a.index(href=`/projects/${project.id}`)
                         img.thumbnail(src=`${project.image_urls.thumbnail}`)
-                        h5 The #{project.project_name} Project
-            //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
-            
-                //- Above is what the Pug for each project example should look like. 
-        
+                        h5 The #{project.project_name} Project        

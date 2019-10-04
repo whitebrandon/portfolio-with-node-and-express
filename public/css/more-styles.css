@@ -195,3 +195,31 @@ h5.name {
     opacity: 0.2;
     font-size: 36px;
 }
+
+.error {
+    text-align: center;
+}
+
+.home-button {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background: var(--brand-blue-med);
+    border-radius: 50%;
+    height: 100px;
+    display: block;
+    width: 100px;
+    border-color: var(--brand-plum-dark);
+    border-width: medium;
+    border-style: double;
+    box-sizing: border-box;
+    color: var(--brand-plum-dark);
+}
+
+.stack {
+    width: 60%;
+    margin: 0 auto;
+    white-space: pre-wrap;
+    margin-top: 50px;
+}
