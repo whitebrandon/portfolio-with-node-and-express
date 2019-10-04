@@ -11,7 +11,7 @@ A portfolio site to show off the projects I've built.
 Clone repo to local machine using git:
 
 ```
-$ git init\
+$ git init
 ```
 ```
 $ git clone https://github.com/whitebrandon/techdegree-project-6
