@@ -1,3 +1,12 @@
+/******************************************
+    Treehouse Techdegree:
+    FSJS project 6 - Static Node.js and Express Site
+    Name: Brandon White
+    Date of Last Modification: 23/11/2019
+******************************************/
+
+'use strict';
+
 // For About Page
 const talents = ["a filmmaker", "a screenwriter", "a critical thinker", "my mother's son", "a designer", "a novelist", "a preparer of baked goods", "an illustrator", "a problem solver", "a big brother", "a lover of books", "a jokester", "a scholar", "a Full Stack JavaScript Developer"];
 

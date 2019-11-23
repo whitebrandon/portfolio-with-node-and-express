@@ -54,15 +54,11 @@ A live version of this portfolio has been deployed using Heroku, and can be foun
 
 This project is licensed under the MIT License.
 
-## Acknowledgements
-
-Background texture was located at [transparenttextures.com](https://www.transparenttextures.com/patterns/clean-gray-paper.png)
-
 ## Style Changes
 
 I've...
 
-* changed the background of the page and various elements using textures, gradients, and colors
+* changed the background of the page and various elements using gradients and colors
 * imported fonts from [Google Fonts](fonts.google.com)
 * added text shadows throughout
 * added box shadows to thumbnail images

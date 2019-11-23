@@ -1,3 +1,15 @@
+/******************************************
+    Treehouse Techdegree:
+    FSJS project 6 - Static Node.js and Express Site
+    Name: Brandon White
+    Date of Last Modification: 23/11/2019
+    more-styles.css
+******************************************/
+
+/* ======================================
+             Secondary Styles 
+   ====================================== */
+
 @import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Asap:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
@@ -5,11 +17,11 @@
 /* Variables */
 
 :root {
-    --brand-blue-med-hard: #014760;
-    --brand-blue-med: #076172;
-    --brand-plum-med: #450539;
+    --brand-blue-med-hard: #0089bb;
+    --brand-blue-med: #38cbe9;
+    --brand-plum-med: #97037c;
     --brand-plum-dark: #010f19;
-    --brand-red-hard: #a4161a;
+    --brand-red-hard: #d60c13;
 }
 
 body, h5 {
@@ -18,8 +30,7 @@ body, h5 {
 }
 
 body {
-    background: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png"),
-                linear-gradient(to top, #010f1938, var(--brand-blue-med-hard) 75%),
+    background: linear-gradient(to top, #010f1938, var(--brand-blue-med-hard) 75%),
                 #0761727c;
 }
 
@@ -80,8 +91,7 @@ h5.name {
 }
 
 .portfolio-me {
-    background-image: linear-gradient(to top, #076172b3, #a4161ab3), 
-                      url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    background-image: linear-gradient(to top, #0596b3b3, #ff2a31b3);
 }
 
 .portfolio-me p {
@@ -103,7 +113,7 @@ h5.name {
 }
 
 .portfolio-me a:hover {
-    color: var(--brand-plum-med);
+    color: var(--brand-red-hard);
 }
 
 .profile {
