@@ -69,6 +69,20 @@
                     "large_2": "/static/imgs/public-api-2_large.png",
                     "large_3": "/static/imgs/public-api-3_large.png"
             }
+        },
+        {
+            "id": "project-six",
+            "project_name": "React Gallery App",
+            "description": "A single-page, searchable, image gallery application built with the React library and React Router.",
+            "technologies": ["HTML5", "CSS3", "JavaScript", "React", "ReactDOM", "React-Router"],
+            "live_link": "https://the-whitebrandon-gallery-app.netlify.com/",
+            "github_link": "https://github.com/whitebrandon/techdegree-project-7",
+            "image_urls": {
+                    "thumbnail": "/static/imgs/gallery-app-1_small.png",
+                    "large_1": "/static/imgs/gallery-app-1_large.png",
+                    "large_2": "/static/imgs/gallery-app-2_large.png",
+                    "large_3": "/static/imgs/gallery-app-3_large.png"
+                }
         }
     ]
 }
