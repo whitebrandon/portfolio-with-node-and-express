@@ -5,8 +5,8 @@
             "project_name": "Random Quote Generator",
             "description": "An app that, every twenty seconds or—optionally—at the click of a button, generates a random movie quote from a list.",
             "technologies": ["HTML5", "CSS3", "JavaScript"],
-            "live_link": "https://whitebrandon.github.io/techdegree-project-1/",
-            "github_link": "https://github.com/whitebrandon/techdegree-project-1",
+            "live_link": "https://whitebrandon.github.io/movie-quote-generator/",
+            "github_link": "https://github.com/whitebrandon/movie-quote-generator",
             "image_urls": {
                     "thumbnail": "/static/imgs/random-quotes-2_small.png",
                     "large_1": "/static/imgs/random-quotes-2_large.png",
@@ -19,8 +19,8 @@
             "project_name": "List Pagination & Filtering",
             "description": "An app that utilizes dynamic pagination to filter a list of, any number of, students in order to provide a more pleasant User Experience.",
             "technologies": ["HTML5", "CSS3", "JavaScript"],
-            "live_link": "https://whitebrandon.github.io/techdegree-project-2/",
-            "github_link": "https://github.com/whitebrandon/techdegree-project-2",
+            "live_link": "https://whitebrandon.github.io/list-pagination/",
+            "github_link": "https://github.com/whitebrandon/list-pagination",
             "image_urls": {
                     "thumbnail": "/static/imgs/pagination-1_small.png",
                     "large_1": "/static/imgs/pagination-1_large.png",
@@ -33,8 +33,8 @@
             "project_name": "Interactive Form",
             "description": "An app that utilizes JavaScript, JQuery and various validation techniques to enhance an interactive registration form for a fictional conference.",
             "technologies": ["HTML5", "CSS3", "JavaScript", "JQuery"],
-            "live_link": "https://whitebrandon.github.io/techdegree-project-3/",
-            "github_link": "https://github.com/whitebrandon/techdegree-project-3",
+            "live_link": "https://whitebrandon.github.io/interactive-web-form/",
+            "github_link": "https://github.com/whitebrandon/interactive-web-form",
             "image_urls": {
                     "thumbnail": "/static/imgs/form-1_small.png",
                     "large_1": "/static/imgs/form-1_large.png",
@@ -47,8 +47,8 @@
             "project_name": "OOP Game Show App",
             "description": "A browser-based word guessing game created with vanilla JavaScript and utilizing Object-Oriented-Programming principles.",
             "technologies": ["HTML5", "CSS3", "JavaScript", "Web Audio API"],
-            "live_link": "https://whitebrandon.github.io/techdegree-project-4/",
-            "github_link": "https://github.com/whitebrandon/techdegree-project-4",
+            "live_link": "https://whitebrandon.github.io/phrase-hunter/",
+            "github_link": "https://github.com/whitebrandon/phrase-hunter",
             "image_urls": {
                     "thumbnail": "/static/imgs/oop-game-1_small.png",
                     "large_1": "/static/imgs/oop-game-1_large.png",
@@ -61,8 +61,8 @@
             "project_name": "Public API Requests",
             "description": "An app that uses JavaScript, JQuery, and a third-party API to create an employee directory.",
             "technologies": ["HTML5", "CSS3", "JavaScript", "JQuery", "JSON", "Fetch API", "Random User Generator API"],
-            "live_link": "https://whitebrandon.github.io/techdegree-project-5/",
-            "github_link": "https://github.com/whitebrandon/techdegree-project-5",
+            "live_link": "https://whitebrandon.github.io/employee-directory-mockup/",
+            "github_link": "https://github.com/whitebrandon/employee-directory-mockup",
             "image_urls": {
                     "thumbnail": "/static/imgs/public-api-1_small.png",
                     "large_1": "/static/imgs/public-api-1_large.png",
@@ -76,7 +76,7 @@
             "description": "A single-page, searchable, image gallery application built with the React library and React Router.",
             "technologies": ["HTML5", "CSS3", "JavaScript", "React", "ReactDOM", "React-Router"],
             "live_link": "https://the-whitebrandon-gallery-app.netlify.com/",
-            "github_link": "https://github.com/whitebrandon/techdegree-project-7",
+            "github_link": "https://github.com/whitebrandon/react-gallery-app",
             "image_urls": {
                     "thumbnail": "/static/imgs/gallery-app-1_small.png",
                     "large_1": "/static/imgs/gallery-app-1_large.png",
