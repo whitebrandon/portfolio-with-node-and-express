@@ -1,8 +1,4 @@
-# TECH DEGREE PROJECT #6 | STATIC NODE.js AND EXPRESS SITE
-
-a COURSE BY TREEHOUSE
-
-JS CODE by Brandon White | white.brandonsean@gmail.com
+# STATIC NODE.js AND EXPRESS SITE
 
 A portfolio site to show off the projects I've built.
 
@@ -53,19 +49,3 @@ A live version of this portfolio has been deployed using Heroku, and can be foun
 ## License
 
 This project is licensed under the MIT License.
-
-## Style Changes
-
-I've...
-
-* changed the background of the page and various elements using gradients and colors
-* imported fonts from [Google Fonts](fonts.google.com)
-* added text shadows throughout
-* added box shadows to thumbnail images
-* filtered out color of images so that they would pop on hover; they also scale up on hover
-* added animations to images so that when clicked, they lead into the linked page by sliding off the current page
-* used pseudo elements to add unicode glyphs to certain list items
-
-## Behavior Changes
-
-I've created a main.js client-side file and added a function that causes the secondary heading of the about page to switch through a serious of words/phrases (.ie "More than a [designer, illustator, developer]).
